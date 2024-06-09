@@ -4,23 +4,23 @@ The AI and player's scores are displayed, and the game announces the winner afte
 
 
 # Features:
-Hand Detection and Tracking: Utilizes MediaPipe's hand tracking module to detect and track hand landmarks.
+- Hand Detection and Tracking: Utilizes MediaPipe's hand tracking module to detect and track hand landmarks.
 
-Gesture Recognition: Recognizes player's gesture (Rock, Paper, Scissors) based on the number of extended fingers.
+- Gesture Recognition: Recognizes player's gesture (Rock, Paper, Scissors) based on the number of extended fingers.
 
-AI Opponent: The AI opponent randomly selects between Rock, Paper, and Scissors.
+- AI Opponent: The AI opponent randomly selects between Rock, Paper, and Scissors.
 
-Scoring System: Keeps track of the scores for both the player and AI. The game declares the winner once a score of 5 is reached.
+- Scoring System: Keeps track of the scores for both the player and AI. The game declares the winner once a score of 5 is reached.
 
-Real-time Feedback: Displays the player's and AI's choices, the winner of each round, and the current scores on the screen in real-time.
+- Real-time Feedback: Displays the player's and AI's choices, the winner of each round, and the current scores on the screen in real-time.
 
 
 # How It Works:
-Video Capture: The script captures video from the default webcam.
+- Video Capture: The script captures video from the default webcam.
 
-Hand Landmark Detection: MediaPipe processes each frame to detect hand landmarks.
+- Hand Landmark Detection: MediaPipe processes each frame to detect hand landmarks.
 
-Gesture Recognition: The number of extended fingers is counted to determine the player's gesture:
+- Gesture Recognition: The number of extended fingers is counted to determine the player's gesture:
 
 Rock: 0 or 1 fingers
 
@@ -30,18 +30,18 @@ Paper: 5 fingers
 
 Invalid: Other numbers of fingers
 
-Game Logic: The player's gesture is compared against the AI's random choice to determine the winner of the round. The scores are updated accordingly.
+- Game Logic: The player's gesture is compared against the AI's random choice to determine the winner of the round. The scores are updated accordingly.
 
-Display: The current round's winner, choices, and scores are displayed on the video feed.
+- Display: The current round's winner, choices, and scores are displayed on the video feed.
 
-Game End: The game announces the winner and restarts when either the player or AI reaches a score of 5.
+- Game End: The game announces the winner and restarts when either the player or AI reaches a score of 5.
 
 
 # Prerequisites:
-Python 3.x
+- Python 3.x
 
-OpenCV
+- OpenCV
 
-MediaPipe
+- MediaPipe
 
-statistics module
+- statistics module
