@@ -22,13 +22,13 @@ The AI and player's scores are displayed, and the game announces the winner afte
 
 - Gesture Recognition: The number of extended fingers is counted to determine the player's gesture:
 
-Rock: 0 or 1 fingers
+1) Rock: 0 or 1 fingers
 
-Scissors: 2 fingers
+2) Scissors: 2 fingers
 
-Paper: 5 fingers
+3) Paper: 5 fingers
 
-Invalid: Other numbers of fingers
+4) Invalid: Other numbers of fingers
 
 - Game Logic: The player's gesture is compared against the AI's random choice to determine the winner of the round. The scores are updated accordingly.
 
